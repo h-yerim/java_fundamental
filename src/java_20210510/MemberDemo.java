@@ -25,6 +25,7 @@ public class MemberDemo {
 	
 	
 	public static void main(String[] args) {
+		//instance 만들때 선언하면서 다 초기화됨(int-> 0으로 string ->null으로 )
 		Member m = new Member();
 		//m.name = ""; <-안된다는 것~!
 		m.setName("정혜림");
@@ -35,5 +36,6 @@ public class MemberDemo {
 		m.setAge(20);
 	
 		print(m);		
+		
 	}
 }
