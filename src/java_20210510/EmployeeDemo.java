@@ -1,5 +1,6 @@
 package java_20210510;
 
+//자바는 자식이 부모를 탄생시킴. 공통점을 찾아내서
 public class EmployeeDemo {
 	public static void main(String[] args) {
 		Employee e1 = new Employee();
