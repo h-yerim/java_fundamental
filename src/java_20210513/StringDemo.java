@@ -116,8 +116,5 @@ public class StringDemo {
 		//=System.out.format("%s",String.format("%,.2f", d));
 		
 		
-		
-		
-		
 	}
 }
