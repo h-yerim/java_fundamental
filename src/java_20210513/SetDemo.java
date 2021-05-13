@@ -33,7 +33,7 @@ public class SetDemo {
 		TreeSet lottoSet = new TreeSet();
 		while(true) {
 			int random = (int)(Math.random()*45)+1;
-			lottoSet.add(random);
+			lottoSet.add(random); //auto-boxing (Integer.valueOf) 가 일어남. 왜냐면 add(--)자리에 object들어가야해서
 			if(lottoSet.size()==6) break;
 		}
 		
