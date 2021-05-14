@@ -45,6 +45,7 @@ public class ForDemo {
 			}
 			totalIndex++;
 		}
+		
 		System.out.println();
 		System.out.println(totalCountOfPrimeNumber);
 		System.out.println(totalIndex);
