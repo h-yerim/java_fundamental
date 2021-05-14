@@ -17,7 +17,7 @@ public class LotteryDemo {
 				}
 			}
 
-			if (isExisted) {
+			if (isExisted) {    //isExisted는 기본이 false이기때문에 true로 바뀌지 않으면 if문은 수행되지 않음.
 				i--;
 			} else {
 				lotto[i] = random;
