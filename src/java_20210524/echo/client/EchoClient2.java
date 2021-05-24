@@ -10,10 +10,10 @@ import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class EchoClient {
+public class EchoClient2 {
 	private String ip;
 	private int port;
-	public EchoClient(String ip, int port) {
+	public EchoClient2(String ip, int port) {
 		this.ip = ip;
 		this.port = port;
 	}
@@ -63,7 +63,7 @@ public class EchoClient {
 	}
 	public static void main(String[] args) {
 		//cmd => ipconfig 입력 => ipv4 주소 ip 위치에 입력(192.168.0.72)
-		new EchoClient("192.168.0.72",3000).run();
+		new EchoClient2("192.168.0.72",3000).run();
 	}
 	
 	
