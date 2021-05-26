@@ -32,9 +32,10 @@ public class jdbcUpdateDemo {
 			pstmt = con.prepareStatement(sql.toString());
 			
 			//4. 바인딩 변수를 설정한다.
-			pstmt.setString(1, "두테르테2");
-			pstmt.setString(2, "필리핀2");
-			pstmt.setInt(3, 11);
+			int index = 1;
+			pstmt.setString(index++, "두테르테2");
+			pstmt.setString(index++, "필리핀2");
+			pstmt.setInt(index, 11);
 			
 			//5. sql문을 전송한다.
 			int resultCount = pstmt.executeUpdate();
